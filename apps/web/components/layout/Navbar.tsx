@@ -9,7 +9,6 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/courses", label: "Courses" },
   { href: "/about", label: "About" },
-  { href: "/register", label: "Enrol" },
   { href: "/contact", label: "Contact" },
 ];
 
