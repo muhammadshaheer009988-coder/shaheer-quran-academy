@@ -6,7 +6,7 @@ export const SITE = {
   parentMessage:
     "A calm, parent-friendly place to enrol your child for live Quran learning — with clear courses, scheduled classes, and progress you can follow.",
   phone: "03312969666",
-  whatsapp: "923312969666",
+  whatsapp: "03312969666",
   email: "muhammadshaheer009988@gmail.com",
   timezone: "Asia/Karachi",
   classTimings: [
