@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -19,12 +18,11 @@ export function Navbar() {
     <header className="sticky top-0 z-40 border-b border-brand-900/10 bg-cream-50/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span
-            aria-hidden
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-800 font-serif text-lg text-cream-50"
-          >
-            س
-          </span>
+          <img
+            src="/images.jpg"
+            alt="Quran Academy Logo"
+            className="h-10 w-10 rounded-full object-cover"
+          />
           <span className="leading-tight">
             <span className="block font-serif text-lg text-brand-900">{SITE.shortName}</span>
             <span className="block text-xs tracking-wide text-ink-600">Quran Academy</span>
