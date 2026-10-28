@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f3eb;
+  --foreground: #1c1917;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-cream-50: #fbf8f1;
+  --color-cream-100: #f3eadc;
+  --color-brand-700: #1f5c45;
+  --color-brand-800: #174a38;
+  --color-brand-900: #12382b;
+  --color-brand-950: #0c241c;
+  --color-gold-300: #e4c988;
+  --color-gold-400: #d4b36a;
+  --color-gold-700: #9a7428;
+  --color-ink-500: #78716c;
+  --color-ink-600: #57534e;
+  --color-ink-700: #44403c;
+  --color-ink-800: #292524;
+  --font-sans: var(--font-source-sans);
+  --font-serif: var(--font-cormorant);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-source-sans), "Segoe UI", sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.bg-hero-pattern {
+  background-color: #f7f3eb;
+  background-image:
+    radial-gradient(circle at top right, rgba(196, 163, 90, 0.16), transparent 28%),
+    radial-gradient(circle at left 20%, rgba(18, 56, 43, 0.08), transparent 32%);
+}
