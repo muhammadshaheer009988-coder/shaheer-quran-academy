@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { SITE } from "@/lib/site";
+import ClickSoundListener from "@/components/ClickSoundListener";
 import "./globals.css";
 
 const sourceSans = Source_Sans_3({
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${sourceSans.variable} ${cormorant.variable} h-full scroll-smooth antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
+        <ClickSoundListener />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
